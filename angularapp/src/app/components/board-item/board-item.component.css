@@ -1,0 +1,20 @@
+.del{
+    background: #5D0D02;
+    color: #fff;
+    border: none;
+    padding: 1px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    float: right;
+}
+
+.todo{
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+}
+
+.is-archived{
+    /* visibility: hidden; */
+    text-decoration: line-through;
+}

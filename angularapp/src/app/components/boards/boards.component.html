@@ -1,0 +1,9 @@
+<app-add-todo (addBoard)="addBoard($event)"></app-add-todo>
+<app-board-item 
+    
+    *ngFor="let board of boards" 
+    [board]="board "
+    (deleteBoard)="deleteBoard($event)"
+    >
+
+</app-board-item>
